@@ -877,7 +877,7 @@ class MeshMintToolsPanel(bpy.types.Panel):
         rename_box = layout.box()
         rename_box.label(text="Renaming Tools")
         rename_box.prop(context.window_manager, "base_name")
-        rename_box.operator("object.rename_objects_operator", text="Rename for Production")
+        rename_box.operator("object.rename_objects_operator", text="Rename Tool")
 
 # =============================================================================
 # Register/Unregister Classes
